@@ -1,0 +1,6 @@
+#!/bin/bash
+cmake --build build
+if [ $? -eq 0 ]; then
+    echo '----------------'
+    ./build/001_market_imbalance_calculator
+fi

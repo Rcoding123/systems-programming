@@ -1,0 +1,30 @@
+The program asks for bid quantity and ask quantity, then tells you whether the market is buyer-heavy, seller-heavy, or balanced.
+
+Example behavior:
+
+Bid quantity: 700
+Ask quantity: 300
+Total quantity: 1000
+Bid imbalance: 70%
+Result: Buyer-heavy
+
+Use this project to practice:
+
+main() — where the program starts
+variables — storing bid quantity, ask quantity, total quantity
+input/output — asking the user and printing results
+math — calculating percentages
+if/else — deciding buyer-heavy, seller-heavy, or balanced
+functions — separating the work into smaller pieces
+
+Your function plan should be:
+
+getBidQuantity — gets bid quantity from the user
+getAskQuantity — gets ask quantity from the user
+calculateBidImbalance — calculates bid percentage
+calculateAskImbalance — calculates ask percentage
+printResult — prints the final answer
+classifyMarketPressure — says buyer-heavy, seller-heavy, or balanced
+
+
+“This project calculates bid/ask imbalance using basic C++ input, variables, arithmetic, functions, and if/else logic.”
