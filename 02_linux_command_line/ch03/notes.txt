@@ -1,0 +1,29 @@
+Chapter 3: Exploring the System
+Core Commands:
+
+    ls: Lists directory contents.
+        Command Syntax: Most commands follow the structure: command -options arguments.
+        Common Options: -a (list all, including hidden), -l (long format), -t (sort by modification time), -r (reverse order), -h (human-readable sizes),.
+    file: Determines what kind of data a file contains,. This is useful because Linux does not rely on file extensions to determine a file's purpose.
+    less: A "pager" program used to view the contents of text files,.
+        Navigation: Use Page Up / Page Down to scroll, G to jump to the end, 1G or g to jump to the beginning, / to search forward, and q to quit.
+
+Filesystem Layout: Linux organizes files based on the Filesystem Hierarchy Standard.
+
+    /: The root directory where the filesystem begins.
+    /bin, /sbin, /usr/bin: Directories containing executable programs (binaries),,.
+    /etc: Contains system-wide configuration files (usually plain text).
+    /home: Where regular users store their personal files.
+    /dev: Special directory containing device nodes, reflecting the Linux principle that "everything is a file".
+    /var: Stores data that changes frequently, such as logs and databases.
+
+Links:
+
+    Symbolic (Soft) Links: Special files containing a text pointer to another file or directory, indicated by an l in the ls -l output,.
+    Hard Links: Additional directory entries (names) that point directly to the exact same data as the original file.
+
+Behind the Scenes (from the Bash Reference): When you run a command like ls -l, Bash treats this as a "simple command". It reads your input, breaks it into distinct words (treating the first word as the command and the rest as its arguments), performs any necessary expansions, and then executes the named program
+
+
+
+
