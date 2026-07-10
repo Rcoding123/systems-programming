@@ -1,0 +1,22 @@
+Navigating a Linux System
+
+- pwd: Print name of current working directory 
+- cd:  Change directory
+- ls - List directory contents 
+
+Understanding the Filesystem Tree 
+- Linux keeps a single filesystem tree, regardless of how many drives or storage devices are attached 
+- Organized in a tree-like pattern of directories 
+
+Current Working directory
+To print the working directory: command (pwd)
+
+List the contents of a directory
+To list the content of a directory: (ls)
+
+Changing the current working directory
+Changing the current working directory: (cd) absolute path(/....) OR relative path (../) OR (dir) > if it exists in the cwd
+
+absolute means starting from the root branch(/)
+
+

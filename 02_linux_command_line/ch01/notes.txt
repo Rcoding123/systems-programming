@@ -1,0 +1,10 @@
+A shell lives in the terminal emulator 
+
+Prompt begins with the  [<computer name>]$ 
+
+Takes in a command -> $ date 
+(date) is the command which the shell will execute 
+
+
+Parses through the prompt given and then executes 
+
